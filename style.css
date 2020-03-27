@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightblue;
+    font-family: 'PT Serif', serif;
+    
+}
+.container{
+    background-color: #E3E6E3;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: black;
+}
+
+.profile-img{
+    height: 120px;
+    width: 100px;
+    border:3px solid whitesmoke;
+    border-radius: 50px;
+    float: left;
+}
+.identity{
+    float: left;
+    padding: 20px;
+}
+.c-info{
+    float:right;
+    padding: 20px;
+}
+.c-info a{
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+}
+.c-info a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    margin: 20px auto;
+    border:solid black 2px;
+    width: 100%;
+    border-bottom: none;
+}
+p-info{
+
+}
+.left-div{
+   width: 30%;
+   float: left;
+} 
+.right-div{
+    width:70%;
+    float: left;
+    
+ }
+ .common-hr{
+     margin: 20px auto;
+     border: solid black 1px;
+     width: 100%;
+     border-bottom: none;
+ }
+ .work{
+
+ }
+ .indent{
+     text-indent: 20px;
+ }
+ .right-div-left{
+    width:45%;
+    float: left;
+    
+ }
+ .right-div-right{
+     width:45%;
+     float: right;
+ }
+ .right-div .right-div-left a{
+     text-decoration: none;
+     color:black;
+ }
+ .right-div .right-div-left a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.right-div .right-div-right a{
+    text-decoration: none;
+    color:black;
+}
+.right-div .right-div-right a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.bottom{
+    background-color: cadetblue;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+.bottom a{
+    color: white;
+    padding: 10px;
+}
+.bottom a:hover{
+    color: blue;
+}
